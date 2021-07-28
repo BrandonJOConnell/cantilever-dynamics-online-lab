@@ -1,0 +1,67 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3187789777" file="/Users/brandonjohn/Documents/Brandon J O Connell/The University of Sheffield/PhD Dynamics/GTA and Teaching/Modules/MEC326/MATLAB/MATLAB_App/Beam Deflection Lab.prj" location="/Users/brandonjohn/Documents/Brandon J O Connell/The University of Sheffield/PhD Dynamics/GTA and Teaching/Modules/MEC326/MATLAB/MATLAB_App" name="Beam Deflection Lab" target="target.mlapps" target-name="Package App">
+    <param.appname>Beam Deflection Lab</param.appname>
+    <param.authnamewatermark>B J O'Connell</param.authnamewatermark>
+    <param.email>BJOConnell1@sheffield.ac.uk</param.email>
+    <param.company>The University of Sheffield</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>MEC326/MEC327 Virtual Beam Deflection Lab Environment</param.summary>
+    <param.description>This virtual lab environment is for students studying Dynamics MEC326/MEC327. This app replicates the beam deflection lab experiment, allowing students to analyse and observe mode shapes of a beam. Live controls for forcing amplitude and frequency allow students to see dynamic changes in the beams response. The Beam Parameters can also be re-configured, to observe difference changing these paramters have on the response.</param.description>
+    <param.screenshot>/private/var/folders/h5/ltfl02qd6j92bl3ljsb0_4gw0000gn/T/tp6e9832d6_22f8_44ac_944f_818b4fda70c0.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>/Users/brandonjohn/Documents/Brandon J O Connell/The University of Sheffield/PhD Dynamics/GTA and Teaching/Modules/MEC326/MATLAB</param.output>
+    <param.guid>c9d6828b-d50f-4b89-8e8e-46d5f55f6793</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/BeamDeflectionLab.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/brandonjohn/Documents/Brandon J O Connell/The University of Sheffield/PhD Dynamics/GTA and Teaching/Modules/MEC326" name="MATLAB" optional="false">/Users/brandonjohn/Documents/Brandon J O Connell/The University of Sheffield/PhD Dynamics/GTA and Teaching/Modules/MEC326/MATLAB</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2020b.app</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.16</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
