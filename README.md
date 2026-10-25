@@ -1,6 +1,6 @@
-# Cantilever Beam Dynamics (MEC 326) - Online Lab 
+# Cantilever Beam Dynamics (MEC 326) - Online Lab - ARCHIVED
 
-A MATLAB app for exploring the dynamics of a simple 1D cantilever beam. Change the forcing and the beam properties, and see how the response and natural frequencies change.
+A MATLAB app for exploring the dynamics of a simple 1D cantilever beam. Change the forcing and the beam properties, and see how the response and natural frequencies change. (Originally designed for Online Teaching During Covid Pandemic) 
 
 ![App screenshot](screenshot.gif)
 
